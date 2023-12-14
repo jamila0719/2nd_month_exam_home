@@ -56,6 +56,7 @@ text-transform: uppercase;
 background-repeat: no-repeat;
 margin-left: 80px;
 margin-top: 60px;
+border-radius: 10px;
 
 
 }
@@ -96,4 +97,239 @@ line-height: 25px;
 justify-content: center;
 border: none;
 margin-top: 56px;
+}
+.allPageWidth .container .plan .plan_text button:hover{
+    background: #66D2CF;
+    cursor: pointer;
+}
+.allPageWidth .container .products_section{
+    display: flex;
+    margin-left: 50px;
+    
+}
+.allPageWidth .container .products_section .product{
+    justify-content: center;
+    text-align: center;
+   
+}
+.allPageWidth .container .products_section .product img{
+    width: 255px;
+height: 193px;
+}
+.allPageWidth .container .products_section .product h2{
+    color: #333D4B;
+text-align: center;
+font-family: Fraunces 9pt;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; 
+}
+.allPageWidth .container .products_section .product p{
+    color: #333D4B;
+text-align: center;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+/* secon section ended */
+
+/* third section starte */
+.allPageWidth .container .choose{
+    width: 1430px;
+    height: 600px;
+background-color: #333D4B;
+margin-top: 180px;
+padding-top: 100px;
+border-radius: 15px;
+}
+
+.allPageWidth .container .choose  .choose_text{
+    justify-content: center;
+text-align: center;
+}
+.allPageWidth .container .choose  .choose_text h2{
+    color: #FEFCF7;
+text-align: center;
+font-family: Fraunces 9pt;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 48px; 
+}
+.allPageWidth .container .choose .choose_text  p{
+    color: #FEFCF7;
+text-align: center;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-top: 32px;
+}
+.allPageWidth .container .choose .choose_info{
+    display: flex;
+    gap: 30px;
+    margin-top: 85px;
+}
+.allPageWidth .container .choose .choose_info .choose_table{
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+   height: 382px;
+   padding-top: 72px;
+   margin-left: 85px;
+   border-radius: 8px;
+   background: #0E8784;
+}
+.allPageWidth .container .choose .choose_info .choose_table h3{
+    color: #FEFCF7;
+text-align: center;
+font-family: Fraunces 9pt;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; 
+padding-top: 56px;
+}
+.allPageWidth .container .choose .choose_info .choose_table p{
+    color: #FEFCF7;
+text-align: center;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-top: 24px;
+
+}
+/* third section ended */
+.allPageWidth .container .works{
+    margin-top: 248px;
+    display: flex;
+}
+.allPageWidth .container .works .works_text h2{
+    color: #83888F;
+font-family: Fraunces 9pt;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; 
+padding-left: 30px;
+}
+.allPageWidth .container .works .works_line{
+    margin-top: 95px;
+
+}
+.allPageWidth .container .works .works_line .line{
+    /* width: 760px;
+height: 1px;
+stroke-width: 2px;
+stroke: #FDD6BA; */
+}
+.allPageWidth .container .works .works_info{
+    width: 285px;
+height: 355px;
+margin-left: 50px;
+
+}
+.allPageWidth .container .works .works_info{
+    margin-top: 178px;
+}
+.allPageWidth .container .works .works_info span{
+    color: #FDD6BA;
+font-family: Fraunces 9pt;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 72px; 
+}
+.allPageWidth .container .works .works_info h2{
+    color: #333D4B;
+font-family: Fraunces 9pt;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; 
+padding-top: 38px;
+}
+.allPageWidth .container .works .works_info p{
+    color: #333D4B;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-top: 42px;
+}
+/* fourth section ended */
+
+/* button started */
+
+.allPageWidth .container .plan_btn{
+    margin-top: 64px;
+    width: 217px;
+height: 56px;
+border-radius: 6px;
+background: #0E8784;
+border: none;
+color: #FEFCF7;
+text-align: center;
+font-family: Fraunces 9pt;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px; 
+margin-left: 199px;
+}
+.allPageWidth .container .plan_btn:hover{
+    background: #66D2CF;
+    cursor: pointer;
+}
+/* button ended */
+
+/* footer started */
+.allPageWidth .container .footer{
+    width: 1280px;
+height: 120px;
+background: #2C343E;
+margin-left: 80px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+padding-top: 47px;
+}
+.allPageWidth .container .footer ul{
+    display: flex;
+    gap: 2vw;
+}
+.allPageWidth .container .footer ul li a{
+    color: #83888F;
+font-family: Barlow;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 15px; /* 125% */
+letter-spacing: 0.923px;
+text-transform: uppercase;
+}
+.allPageWidth .container .footer ul li a:hover{
+    color: #FEFCF7;
+font-family: Barlow;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 15px; /* 125% */
+letter-spacing: 0.923px;
+text-transform: uppercase;
+cursor: pointer;
+}
+.allPageWidth .container .footer .icones{
+    color: #FEFCF7;
+}
+.allPageWidth .container .footer .icones:hover{
+    color: #FDD6BA;
+    cursor: pointer;
 }
